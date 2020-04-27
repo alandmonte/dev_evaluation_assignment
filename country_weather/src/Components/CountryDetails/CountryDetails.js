@@ -25,9 +25,10 @@ class CountryDetails extends Component {
   }
 
   render() {
-      const {capital, population, latlng, flag} = this.props.countryInfo
+      const {name, capital, population, latlng, flag} = this.props.countryInfo
     return (
       <div className="country-details">
+        <div>Name: <span>{name}</span></div>
         <div>Capital: <span>{capital}</span></div>
         <div>Population: <span>{population}</span></div>
         <div>Coordinates: <span>{latlng[0] + "," + latlng[1]}</span></div>
