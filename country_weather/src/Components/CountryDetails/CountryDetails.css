@@ -1,0 +1,13 @@
+.Counry-Flag {
+    height: 20px;
+    pointer-events: none;
+}
+
+.country-details {
+    display: block;
+    width: auto;
+    text-align: left;
+    border: 1px solid;
+    margin: 5px;
+    padding: 3px 10px;
+}
